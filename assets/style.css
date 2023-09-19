@@ -18,7 +18,7 @@ header {
 
 h1 {
     padding-left: 1.7%;
-    background-color:rgb(105, 215, 178);
+    background-color:rgb(156, 179, 172);
     color: rgb(14, 14, 72);
     font-size: 550%;
     padding-right:1%
@@ -34,8 +34,19 @@ nav ul{
 
 nav a {
     height:80px;
-    color:rgb(105, 215, 178);
+    color:rgb(156, 179, 172);
     margin:15px;
     font-size: 250%;
     text-decoration: underline;
+}
+.banner img{
+    width:100%;
+    height:240px;
+}
+.banner h2{
+    position:relative;
+    float:right;
+    background-color: rgb(156, 179, 172);
+    font-size: 60px;
+    bottom: 73px;
 }
