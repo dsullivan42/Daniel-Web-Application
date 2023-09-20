@@ -1,14 +1,16 @@
+
+/* setting a global attribute for border box, no padding, or margin, as well as the color for the text  */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     color: rgb(14, 14, 72);
 }
-
+/* setting background color for the body of the webpage */
 body {
     background-color: rgb(230, 229, 228);
 }
-
+/*  display them in the same line, with space between each item, while aligning them in the center. Giving the background color for the header, as well as the height for it*/
 header {
     display:flex;
     justify-content:space-between;
@@ -16,7 +18,7 @@ header {
     background-color: rgb(14, 14, 72);
     height:130px;
 }
-
+/* Give the padding for the h1 title of the page, as well as the border around it. Sets the font color and size for that same title */
 h1 {
     padding-left: 2%;
     background-color:rgb(156, 179, 172);
@@ -24,7 +26,7 @@ h1 {
     font-size: 600%;
     padding-right:1%
 }
-
+    /*only new thing changing here is the minimum width set for the list, as well as the deletion of any list type style, also setting a margin for 10px  */
 nav ul{
     display: flex;
     justify-content:space-between;
@@ -32,7 +34,7 @@ nav ul{
     list-style-type: none;
     margin:10px;
 }
-
+/* sets the underline for the items in the navigation bar at the top right, as well as the font color/size. */
 nav a {
     height:80px;
     color:rgb(156, 179, 172);
@@ -40,10 +42,12 @@ nav a {
     font-size: 250%;
     text-decoration: underline;
 }
+/* sets the parameters for the image being used as the banner beneath the header */
 .banner img{
     width:100%;
     height:240px;
 }
+/* Sets the position, parameters, and font/border color for the text over the banner image */
 .banner h2{
     position:relative;
     float:right;
@@ -51,27 +55,31 @@ nav a {
     font-size: 60px;
     bottom: 73px;
 }
+    /* sets the padding and margin for the content class */
 .Content{
     padding-top:30px;
     margin:10px;
-
+/* sets the padding, font size for all h3's within the content class */
 }
 .Content h3{
     padding-top: 110px;
     font-size:70px;
     padding-left: 150px;
 }
+/* sets the width and the in line format for the about me class, makes it so everything stays horizontally formatted. */
 .About-Me{
     width:100%;
     display:inline-flex;
 
 
 }
+/* sets the position and size of the image used in the about me class */
 .About-Me img {
     padding-left:40px;
     width:18%;
 
 }
+/* sets the position, how the text is formatted, the width, and the alignment of the text in the paragraph for the about me class*/
 .About-Me p{
     padding-top:40px;
     text-wrap: wrap;
@@ -80,20 +88,23 @@ nav a {
     padding-left: 40px;
     text-align: center;
 }
+    /* sets the format for the Work class */
 .Work{
     display:inline-block;
-
+/* sets the size and position of the images in the Work class */
 }
 .Work img{
     width: 48%;
     padding-left:40px;
 }
+/* sets the format, font size, and the spacing for the class, Contact-Me */
 .Contact-Me{
     font-size: 50px;
     display:flex;
     justify-content:space-between;
     align-items: center;
 }
+/* sets the positioning for the h4 inside of the Contact-Me class */
 .Contact-Me h4{
     padding-top: 110px;
     padding-right: 50px;
