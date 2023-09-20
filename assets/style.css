@@ -9,10 +9,6 @@ body {
     background-color: rgb(230, 229, 228);
 }
 
-main {
-
-}
-
 header {
     display:flex;
     justify-content:space-between;
@@ -85,16 +81,21 @@ nav a {
     text-align: center;
 }
 .Work{
-    display:inline-flex;
-    padding-top:100px;
+    display:inline-block;
 
 }
 .Work img{
-    display:inline-block;
+    width: 48%;
     padding-left:40px;
-    width:25%
 }
 .Contact-Me{
-
+    font-size: 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.Contact-Me h4{
+    padding-top: 110px;
+    padding-right: 50px;
 }
 
