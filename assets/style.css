@@ -2,10 +2,15 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    color: rgb(14, 14, 72);
 }
 
 body {
     background-color: rgb(230, 229, 228);
+}
+
+main {
+
 }
 
 header {
@@ -17,10 +22,10 @@ header {
 }
 
 h1 {
-    padding-left: 1.7%;
+    padding-left: 2%;
     background-color:rgb(156, 179, 172);
     color: rgb(14, 14, 72);
-    font-size: 550%;
+    font-size: 600%;
     padding-right:1%
 }
 
@@ -50,3 +55,46 @@ nav a {
     font-size: 60px;
     bottom: 73px;
 }
+.Content{
+    padding-top:30px;
+    margin:10px;
+
+}
+.Content h3{
+    padding-top: 110px;
+    font-size:70px;
+    padding-left: 150px;
+}
+.About-Me{
+    width:100%;
+    display:inline-flex;
+
+
+}
+.About-Me img {
+    padding-left:40px;
+    width:18%;
+
+}
+.About-Me p{
+    padding-top:40px;
+    text-wrap: wrap;
+    width:110%;
+    font-size: 25pt;
+    padding-left: 40px;
+    text-align: center;
+}
+.Work{
+    display:inline-flex;
+    padding-top:100px;
+
+}
+.Work img{
+    display:inline-block;
+    padding-left:40px;
+    width:25%
+}
+.Contact-Me{
+
+}
+
